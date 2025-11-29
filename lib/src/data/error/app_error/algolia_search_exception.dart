@@ -1,0 +1,1 @@
+class AlgoliaSearchException implements Exception {}

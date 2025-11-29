@@ -1,0 +1,14 @@
+{
+  "@@locale": "en",
+  "locale": "en",
+  "male": "Male",
+  "female": "Female",
+  "notConnectedToInternet": "You are not connected to internet",
+  "somethingWentWrong": "Something went wrong. Please try again",
+  "serviceError": "Service unavailable, please try again later.",
+  "forbiddenAccessError": "You don't have the adequate permissions to view this.",
+  "contentError": "This content is unavailable currently, please try again later",
+  "unAuthorizedAccess": "You don't have authorization to access this",
+  "networkError": "Internet connection error",
+  "retry": "Retry"
+}

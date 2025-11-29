@@ -1,0 +1,14 @@
+{
+  "@@locale": "ar",
+  "locale": "ar",
+  "male": "ذكر",
+  "female": "انثى",
+  "notConnectedToInternet": "أنت غير متصل بالإنترنت",
+  "somethingWentWrong": "حدث خطأ ما. يرجى إعادة المحاولة لاحقاً ",
+  "serviceError": "الخدمة غير متوفرة، من فضلك حاول في وقت لاحق",
+  "forbiddenAccessError": "لا تملك الصلاحيات الكافية للإطلاع",
+  "contentError": "هذا المحتوى غير متوفر حالياً، من فضلك حاول في وقت لاحق",
+  "unAuthorizedAccess": "لا تملك الصلاحيات الكافية للإطلاع",
+  "networkError": "خطأ في الاتصال بالإنترنت",
+  "retry": "إعادة المحاولة"
+}
