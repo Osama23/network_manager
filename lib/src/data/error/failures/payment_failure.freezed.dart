@@ -332,6 +332,18 @@ class _$PaymentUnknownImpl implements PaymentUnknown {
     }
     return orElse();
   }
+
+  @override
+  // TODO: implement id
+  String get id => throw UnimplementedError();
+
+  @override
+  // TODO: implement props
+  List<Object?> get props => throw UnimplementedError();
+
+  @override
+  // TODO: implement stringify
+  bool? get stringify => throw UnimplementedError();
 }
 
 abstract class PaymentUnknown implements PaymentFailure {
@@ -534,6 +546,18 @@ class _$PropertyBookErrorImpl implements PropertyBookError {
     }
     return orElse();
   }
+
+  @override
+  // TODO: implement id
+  String get id => throw UnimplementedError();
+
+  @override
+  // TODO: implement props
+  List<Object?> get props => throw UnimplementedError();
+
+  @override
+  // TODO: implement stringify
+  bool? get stringify => throw UnimplementedError();
 }
 
 abstract class PropertyBookError implements PaymentFailure {
@@ -732,6 +756,18 @@ class _$AddFundErrorImpl implements AddFundError {
     }
     return orElse();
   }
+
+  @override
+  // TODO: implement id
+  String get id => throw UnimplementedError();
+
+  @override
+  // TODO: implement props
+  List<Object?> get props => throw UnimplementedError();
+
+  @override
+  // TODO: implement stringify
+  bool? get stringify => throw UnimplementedError();
 }
 
 abstract class AddFundError implements PaymentFailure {
@@ -934,6 +970,18 @@ class _$ConfirmFundErrorImpl implements ConfirmFundError {
     }
     return orElse();
   }
+
+  @override
+  // TODO: implement id
+  String get id => throw UnimplementedError();
+
+  @override
+  // TODO: implement props
+  List<Object?> get props => throw UnimplementedError();
+
+  @override
+  // TODO: implement stringify
+  bool? get stringify => throw UnimplementedError();
 }
 
 abstract class ConfirmFundError implements PaymentFailure {
