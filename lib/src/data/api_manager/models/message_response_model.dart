@@ -6,7 +6,7 @@ class MessageResponseModel extends ResponseModel {
   MessageResponseModel({required this.message});
 
   factory MessageResponseModel.fromMap(Map<String, dynamic> map) {
-    final messageResponse = map["message"] ?? map["msg"] ?? map['response_message'];
+    final messageResponse = map["message"] ?? map["msg"] ?? map['response_message'] ?? map["error_message"];
     var message = "";
     if (messageResponse is String) {
       message = messageResponse;
