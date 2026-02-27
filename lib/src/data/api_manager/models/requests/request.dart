@@ -17,6 +17,8 @@ mixin Request implements BaseRequest {
 
   String? get apiVersion => null;
 
+  String? get platform => null;
+
   Map<String, String>? get headers {
     final headers = BaseRequestDefaults.instance.header;
 
@@ -26,6 +28,10 @@ mixin Request implements BaseRequest {
 
     if(apiVersion != null) {
       headers.addAll({NetworkApiConstants.kXApiVersion: apiVersion!});
+    }
+
+    if(platform != null) {
+      headers.addAll({NetworkApiConstants.platform: platform!});
     }
 
     return headers;

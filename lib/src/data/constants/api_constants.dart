@@ -3,6 +3,7 @@ class NetworkApiConstants {
   static const String versionV2 = 'v2';
   static const String versionV1 = 'v1';
   static const String versionV3 = 'v3';
+  static const String platform = 'platform';
 }
 
 class VideoConstants {
